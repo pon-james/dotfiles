@@ -50,6 +50,7 @@ extlist=(
   wix.vscode-import-cost
   yzhang.markdown-all-in-one
   fauna.faunadb
+  ms-vsliveshare.vsliveshare-pack
 )
 
 set +e # Enables checking of commands
