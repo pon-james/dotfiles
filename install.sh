@@ -117,26 +117,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 # https://github.com/driesvints/dotfiles/blob/master/path.zsh
 echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 
-# CONFIGURE GIT
-#ln -sf $(pwd)/.gitconfig ~/.gitconfig
-#ln -sf $(pwd)/.gitignore_global ~/.gitignore_global
-
-# SETUP ALIASES ETC
-echo "symlink aliases and functions"
-#ln -sf $(pwd)/env.sh ~/env.sh
-
-echo "symlink zshrc config"
-#ln -sf $(pwd)/.zshrc ~/.zshrc
-
-echo "symlink hyper config"
-#ln -sf $(pwd)/.hyper.js ~/.hyper.js
-
-echo "symlink gemrc"
-#ln -sf $(pwd)/.gemrc ~/.gemrc
-
-echo "symlink .npmrc"
-#ls -sf $(pwd)/.npmrc ~/.npmrc
-
 # Setup dock
 #dockutil --no-restart --remove all
 #dockutil --no-restart --add "/Applications/Firefox Developer Edition.app"
