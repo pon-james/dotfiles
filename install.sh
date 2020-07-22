@@ -12,7 +12,7 @@ brews=(
 )
 
 casks=(
-  hyper
+  iterm2
   rectangle
   spotify
   visual-studio-code
