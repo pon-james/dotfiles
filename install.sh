@@ -4,7 +4,6 @@ brews=(
   git
   node
   nvm
-  yarn
   zsh
   zsh-completions
   zsh-autosuggestions
@@ -20,7 +19,6 @@ casks=(
 
 npms=(
   npm
-  yarn
   commitizen
   cz-conventional-changelog
   gatsby-cli
