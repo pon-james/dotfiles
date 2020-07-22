@@ -3,7 +3,6 @@
 brews=(
   git
   node
-  nvm
   zsh
   zsh-completions
   zsh-autosuggestions
@@ -137,6 +136,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # Install ZSH autocompletions
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+
+# Install NVM
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 # Setup Mac OS
 #echo "install Mac OS defaults"
