@@ -22,6 +22,8 @@ npms=(
   npm
   yarn
   commitizen
+  gatsby-cli
+  netlify-cli
 )
 
 set +e # Enables checking of commands
