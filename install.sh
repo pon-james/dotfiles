@@ -27,6 +27,30 @@ npms=(
 )
 
 extlist=(
+  andys8.jest-snippets-1.8.0
+  bungcip.better-toml-0.3.2
+  capaj.vscode-standardjs-snippets-0.8.12
+  christian-kohler.npm-intellisense-1.3.0
+  dawhite.mustache-1.1.1
+  dbaeumer.vscode-eslint-2.1.8
+  dotjoshjohnson.xml-2.5.1
+  esbenp.prettier-vscode-5.1.3
+  felixfbecker.php-debug-1.13.0
+  felixfbecker.php-intellisense-2.3.14
+  file-icons.file-icons-1.0.24
+  formulahendry.code-runner-0.11.0
+  jpoissonnier.vscode-styled-components-0.0.29
+  kumar-harsh.graphql-for-vscode-1.15.3
+  marlon407.code-groovy-0.1.2
+  ms-azuretools.vscode-docker-1.3.1
+  ms-python.python-2020.7.94776
+  ms-vscode.vscode-typescript-tslint-plugin-1.2.3
+  orta.vscode-jest-3.2.0
+  redhat.vscode-yaml-0.9.1
+  shinnn.stylelint-0.51.0
+  waderyan.gitblame-4.1.0
+  wix.vscode-import-cost-2.12.0
+  yzhang.markdown-all-in-one-3.1.0
 )
 
 set +e # Enables checking of commands
