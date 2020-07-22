@@ -128,7 +128,6 @@ install 'code --install-extension' ${extlist[@]}
 # Remove outdated versions from the cellar.
 echo "clean up"
 brew cleanup
-brew cask cleanup
 gem cleanup
 
 # Install OhMyZsh
