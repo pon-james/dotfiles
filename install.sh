@@ -26,6 +26,9 @@ npms=(
   netlify-cli
 )
 
+extlist=(
+)
+
 set +e # Enables checking of commands
 set -x # Print each command before it is executed
 
@@ -95,6 +98,10 @@ install 'brew cask install' ${casks[@]}
 # SECONDARY PACKAGES
 echo "install secondary packages"
 install 'npm install --global' ${npms[@]}
+
+# VS Code Extensions
+echo "install vs code packages"
+install 'code --install-extension' ${extlist[@]}
 
 # Remove outdated versions from the cellar.
 echo "clean up"
