@@ -16,6 +16,9 @@ ln -sf $(pwd)/vs-code-settings.json ~/Library/Application\ Support/Code/User/set
 echo "symlink zshrc config"
 ln -sf $(pwd)/.zshrc ~/.zshrc
 
+echo "symlink czrc config"
+ln -sf $(pwd)/.czrc ~/.czrc
+
 #echo "symlink hyper config"
 #ln -sf $(pwd)/.hyper.js ~/.hyper.js
 
