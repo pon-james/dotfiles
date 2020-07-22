@@ -18,6 +18,7 @@ casks=(
 
 npms=(
   npm
+  yarn
   commitizen
   cz-conventional-changelog
   gatsby-cli
