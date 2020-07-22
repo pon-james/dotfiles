@@ -22,6 +22,7 @@ npms=(
   npm
   yarn
   commitizen
+  cz-conventional-changelog
   gatsby-cli
   netlify-cli
 )
