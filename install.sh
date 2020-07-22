@@ -49,6 +49,7 @@ extlist=(
   waderyan.gitblame
   wix.vscode-import-cost
   yzhang.markdown-all-in-one
+  fauna.faunadb
 )
 
 set +e # Enables checking of commands
