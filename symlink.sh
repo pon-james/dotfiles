@@ -13,8 +13,8 @@ ln -sf $(pwd)/vs-code-settings.json ~/Library/Application\ Support/Code/User/set
 #echo "symlink aliases and functions"
 #ln -sf $(pwd)/env.sh ~/env.sh
 
-#echo "symlink zshrc config"
-#ln -sf $(pwd)/.zshrc ~/.zshrc
+echo "symlink zshrc config"
+ln -sf $(pwd)/.zshrc ~/.zshrc
 
 #echo "symlink hyper config"
 #ln -sf $(pwd)/.hyper.js ~/.hyper.js
