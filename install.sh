@@ -14,6 +14,7 @@ casks=(
   rectangle
   spotify
   visual-studio-code
+  postman
 )
 
 npms=(
