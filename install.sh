@@ -16,6 +16,7 @@ casks=(
   spotify
   visual-studio-code
   postman
+  docker
 )
 
 npms=(
