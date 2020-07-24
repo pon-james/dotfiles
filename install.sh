@@ -4,6 +4,7 @@ brews=(
   git
   node
   pyenv
+  helm
   zsh
   zsh-completions
   zsh-autosuggestions
