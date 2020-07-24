@@ -3,6 +3,7 @@
 brews=(
   git
   node
+  pyenv
   zsh
   zsh-completions
   zsh-autosuggestions
