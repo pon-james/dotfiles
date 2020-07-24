@@ -143,22 +143,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 # Install NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
-# Setup Mac OS
-#echo "install Mac OS defaults"
-#sh macos.sh
+# Install GCloud SDK
+curl https://sdk.cloud.google.com | bash
 
-# SETUP PATH
-# http://sourabhbajaj.com/mac-setup/Homebrew/
-# https://github.com/driesvints/dotfiles/blob/master/path.zsh
-echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
-
-# Setup dock
-#dockutil --no-restart --remove all
-#dockutil --no-restart --add "/Applications/Firefox Developer Edition.app"
-#dockutil --no-restart --add "/Applications/Hyper.app"
-#dockutil --no-restart --add "/Applications/Visual Studio Code.app"
-#dockutil --no-restart --add "/Applications/Spotify.app"
-
-#killall Dock
 
 echo "Done! You may need to reboot your machine for all changes to take effect"
