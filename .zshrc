@@ -87,7 +87,7 @@ fi
 # virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=$(which python)
-source /usr/local/bin/virtualenvwrapper.sh
+#source $HOME/.pyenv/versions/3.7.3/bin/virtualenvwrapper.sh
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
