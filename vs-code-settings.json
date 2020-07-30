@@ -19,6 +19,7 @@
   "yaml.format.enable": true,
   "yaml.format.singleQuote": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
