@@ -18,6 +18,7 @@ casks=(
   visual-studio-code
   postman
   docker
+  keepassx
 )
 
 npms=(
