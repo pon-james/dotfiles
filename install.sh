@@ -56,6 +56,7 @@ extlist=(
   yzhang.markdown-all-in-one
   fauna.faunadb
   ms-vsliveshare.vsliveshare-pack
+  tabnine.tabnine-vscode
 )
 
 set +e # Enables checking of commands
