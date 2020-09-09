@@ -36,6 +36,7 @@ extlist=(
   christian-kohler.npm-intellisense
   dawhite.mustache
   dbaeumer.vscode-eslint
+  stylelint.vscode-stylelint
   dotjoshjohnson.xml
   esbenp.prettier-vscode
   felixfbecker.php-debug

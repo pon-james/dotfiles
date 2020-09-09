@@ -38,5 +38,16 @@
   },
   "javascript.implicitProjectConfig.checkJs": true,
   "editor.formatOnSave": true,
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "tabnine.experimentalAutoImports": true,
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "sass",
+    "scss",
+    "source.css.styled",
+    "styled-css",
+    "vue-postcss"
+  ]
 }
