@@ -49,5 +49,5 @@
     "source.css.styled",
     "styled-css",
     "vue-postcss"
-  ]
+  "editor.formatOnSaveMode": "modifications"
 }
