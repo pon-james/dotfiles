@@ -9,6 +9,7 @@ brews=(
   zsh-completions
   zsh-autosuggestions
   zsh-syntax-highlighting
+  maven
 )
 
 casks=(
