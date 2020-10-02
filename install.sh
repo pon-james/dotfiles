@@ -20,6 +20,7 @@ casks=(
   postman
   docker
   keepassx
+  slack
 )
 
 npms=(
