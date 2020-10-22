@@ -22,6 +22,7 @@ casks=(
   docker
   keepassx
   slack
+  mongodb-compass
 )
 
 npms=(
