@@ -62,6 +62,7 @@ extlist=(
   fauna.faunadb
   ms-vsliveshare.vsliveshare-pack
   tabnine.tabnine-vscode
+  mongodb.mongodb-vscode
 )
 
 set +e # Enables checking of commands
