@@ -10,6 +10,7 @@ brews=(
   zsh-autosuggestions
   zsh-syntax-highlighting
   maven
+  mongodb-community
 )
 
 casks=(
