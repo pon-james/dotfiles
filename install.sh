@@ -23,6 +23,7 @@ casks=(
   keepassx
   slack
   mongodb-compass
+  sequel-pro
 )
 
 npms=(
@@ -63,6 +64,7 @@ extlist=(
   ms-vsliveshare.vsliveshare-pack
   tabnine.tabnine-vscode
   mongodb.mongodb-vscode
+  meganrogge.template-string-converter
 )
 
 set +e # Enables checking of commands
