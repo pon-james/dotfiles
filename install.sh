@@ -33,6 +33,7 @@ npms=(
   cz-conventional-changelog
   gatsby-cli
   netlify-cli
+  serve
 )
 
 extlist=(
