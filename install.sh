@@ -9,7 +9,6 @@ brews=(
   zsh-completions
   zsh-autosuggestions
   zsh-syntax-highlighting
-  maven
   mongodb-community
 )
 
@@ -20,10 +19,8 @@ casks=(
   visual-studio-code
   postman
   docker
-  keepassx
-  slack
-  mongodb-compass
   sequel-pro
+  slack
 )
 
 npms=(
@@ -31,8 +28,6 @@ npms=(
   yarn
   commitizen
   cz-conventional-changelog
-  gatsby-cli
-  netlify-cli
   serve
 )
 
@@ -132,7 +127,7 @@ install 'brew install' ${brews[@]}
 
 # BREW CASK PACKAGES
 echo "install brew cask packages"
-install 'brew cask install' ${casks[@]}
+install 'brew install' ${casks[@]}
 
 # SECONDARY PACKAGES
 echo "install secondary packages"

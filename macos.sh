@@ -7,15 +7,6 @@ sudo -v
 # User settings #
 #################
 
-## Set login picture
-sudo dscl . delete /Users/$(whoami) jpegphoto
-sudo dscl . delete /Users/$(whoami) Picture
-sudo dscl . create /Users/$(whoami) Picture "$(pwd)/login-picture.png"
-
-# Menu bar: show battery percentage
-defaults write com.apple.menuextra.battery ShowPercent YES
-
-
 ############
 # Trackpad #
 ############
