@@ -4,6 +4,7 @@ brews=(
   git
   node
   pyenv
+  graphviz
   helm
   zsh
   zsh-completions
@@ -28,6 +29,7 @@ npms=(
   yarn
   commitizen
   cz-conventional-changelog
+  madge
   serve
 )
 
