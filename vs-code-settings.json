@@ -1,44 +1,36 @@
 {
-  "editor.fontSize": 14,
-  "editor.multiCursorModifier": "ctrlCmd",
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.organizeImports": true
   },
-  "terminal.integrated.fontSize": 16,
+  "editor.fontSize": 14,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.formatOnSave": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "selection",
+  "extensions.ignoreRecommendations": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "javascriptreact"
   },
-  "debug.node.autoAttach": "on",
-  "javascript.validate.enable": false,
-  "editor.renderWhitespace": "selection",
-  "files.insertFinalNewline": true,
   "eslint.alwaysShowStatus": true,
-  "yaml.format.enable": true,
-  "yaml.format.singleQuote": true,
+  "explorer.confirmDragAndDrop": false,
+  "debug.node.autoAttach": "on",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "javascript.validate.enable": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "workbench.colorTheme": "Kimbie Dark",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.trimTrailingWhitespace": true,
-  "workbench.editor.showTabs": false,
-  "explorer.confirmDragAndDrop": false,
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "javascript.implicitProjectConfig.checkJs": true,
-  "editor.formatOnSave": true,
-  "workbench.sideBar.location": "right",
-  "tabnine.experimentalAutoImports": true,
   "stylelint.validate": [
     "css",
     "less",
@@ -49,5 +41,14 @@
     "styled-css",
     "vue-postcss"
   ],
-  "editor.formatOnSaveMode": "modifications"
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.fontSize": 16,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.colorTheme": "Kimbie Dark",
+  "workbench.editor.showTabs": false,
+  "workbench.sideBar.location": "right",
+  "yaml.format.enable": true,
+  "yaml.format.singleQuote": true,
 }
