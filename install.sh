@@ -63,6 +63,8 @@ extlist=(
   tabnine.tabnine-vscode
   mongodb.mongodb-vscode
   meganrogge.template-string-converter
+  kimlimjustin.jsdoc-generator
+  burkeholland.simple-react-snippets
 )
 
 set +e # Enables checking of commands
